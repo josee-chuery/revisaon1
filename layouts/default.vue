@@ -17,6 +17,12 @@
             <b-navbar-item tag="router-link" :to="{ path: '/sobre' }">
                 Sobre
             </b-navbar-item>
+            <b-navbar-item tag="router-link" :to="{ path: '/market' }">
+                Marketplace
+            </b-navbar-item>
+            <b-navbar-item tag="router-link" :to="{ path: '/marketnovo' }">
+                Marketplace - Novo Classificado
+            </b-navbar-item>
         </template>
 
         <template #end>
